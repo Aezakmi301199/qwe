@@ -1,0 +1,207 @@
+$text-primary: rgba(26, 26, 26, 0.87);
+$text-secondary: rgba(26, 26, 26, 0.6);
+$text-disabled: rgba(26, 26, 26, 0.38);
+
+$input-border-default: #D1D1D1;
+$input-shape-border-radius: 8px;
+$blue-grey-100: #F1F5F9;
+
+$base-module-05: 4px;
+$base-module-1: 8px;
+$base-module-2: 16px;
+$base-module-3: 24px;
+$base-module-4: 32px;
+$base-module-5: 40px;
+$base-module-15: 12px;
+
+$shape-border-radius-md: 12px;
+
+$input-padding-pad-y-sm: 8px;
+$input-padding-pad-y-md: 16px;
+$input-padding-pad-x: 14px;
+$input-border-hover: #000;
+$input-border-focused: #3479E8;
+$input-input-bg: #FFF;
+
+$font-family-roboto: 'Roboto';
+$font-family-roboto_mono: 'Roboto Mono';
+
+$font-weight-thin: 100;
+$font-weight-extra_light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi_bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra_bold: 800;
+$font-weight-black: 900;
+
+$tabs-padding-py: 9px;
+$tabs-padding-px: 16px;
+
+$menu-text: rgba(26, 26, 26, 0.87);
+$menu-border-radius: 12px;
+$menu-padding-menu-py: 8px;
+$menu-surface: #FFF;
+$menu-item-padding-py: 6px;
+$menu-item-padding-px: 16px;
+$menu-padding-gap: 12px;
+
+$components-switch-slide-fill: #000;
+$components-switch-knob-fill-enable: #FAFAFA;
+
+$success-main: #1AC057;
+$plus-main: #6366F2;
+$warning-main: #F77518;
+$error-main: #EE4343;
+$info-main: #0DA2E7;
+$primary-dark: #2362EA;
+$primary-main: #3479E8;
+
+$base-info-main: rgba(13, 162, 231, 1);
+$base-success-main: rgba(26, 192, 87, 1);
+$base-warning-main: rgba(247, 117, 24, 1);
+$base-error-main: rgba(238, 67, 67, 1);
+$base-yellow-main: rgba(231, 176, 8, 1);
+$base-lime-main: rgba(130, 203, 21, 1);
+$base-secondary-main: #A855F7;
+$base-primary-contrast: rgba(255, 255, 255, 1);
+$button-padding-py-lg: 8px;
+$button-padding-px-lg: 22px;
+$button-padding-px-sm: 10px;
+$button-gap: 8px;
+
+$light-blue-900: #0C4A6E;
+
+$table-padding-py-md: 16px;
+$table-padding-px: 16px;
+
+$layout-column-container: 800px;
+$layout-padding-lg: 24px;
+$layout-body-padding-px: 24px;
+
+$divider-default: rgba(19, 29, 53, 0.12);
+$divider-divider: rgba(26, 26, 26, 0.16);
+
+$page-header-button-padding-py: 4px;
+$page-header-button-padding-px: 12px;
+
+$common_white: rgba(255, 255, 255, 1);
+$border-radius-md: 8px;
+
+$action-active: rgba(19, 29, 53, 0.54);
+$action-hover: rgba(19, 29, 53, 0.04);
+$action-focus: rgba(19, 29, 53, 0.12);
+$action-selected: rgba(19, 29, 53, 0.08);
+
+$icon-icon-md: 24px;
+$icon-icon-sm: 20px;
+$checkbox-icon-ic-sm: 20px;
+
+$link-default: rgba(52, 121, 232, 1);
+
+$text-text-white: rgba(255, 255, 255, 1);
+
+$skeleton-start: rgba(244, 244, 244, 1);
+$skeleton-end: rgba(209, 209, 209, 1);
+
+$border-default: rgba(209, 209, 209, 1);
+
+$base-plus-main: rgba(99, 102, 242, 1);
+
+$bg-button-white-default: rgba(255, 255, 255, 1);
+$iconButton-padding-p-md: 8px;
+
+$border-hover:rgba(26, 26, 26, 1);
+
+:export {
+  TEXT_PRIMARY: $text-primary;
+  TEXT_SECONDARY: $text-secondary;
+  TEXT_DISABLED: $text-disabled;
+  INPUT_INPUT_BG: $input-input-bg;
+  INPUT_BORDER_DEFAULT: $input-border-default;
+  INPUT_SHAPE_BORDER_RADIUS: $input-shape-border-radius;
+  BLUE_GREY_100: $blue-grey-100;
+  BASE_MODULE_05: $base-module-05;
+  BASE_MODULE_1: $base-module-1;
+  BASE_MODULE_2: $base-module-2;
+  BASE_MODULE_3: $base-module-3;
+  BASE_MODULE_4: $base-module-4;
+  BASE_MODULE_5: $base-module-5;
+  BASE_MODULE_15: $base-module-15;
+  SHAPE_BORDER_RADIUS_MD: $shape-border-radius-md;
+  INPUT_PADDING_PAD_Y_MD: $input-padding-pad-y-md;
+  INPUT_PADDING_PAD_X: $input-padding-pad-x;
+  INPUT_BORDER_HOVER: $input-border-hover;
+  INPUT_BORDER_FOCUSED: $input-border-focused;
+  FONT_FAMILY_ROBOTO: $font-family-roboto;
+  FONT_FAMILY_ROBOTO_MONO: $font-family-roboto_mono;
+  MENU_TEXT: $menu-text;
+  SUCCESS_MAIN: $success-main;
+  WARNING_MAIN: $warning-main;
+  ERROR_MAIN: $error-main;
+  INFO_MAIN: $info-main;
+  PLUS_MAIN: $plus-main;
+  BUTTON_PADDING_PY_LG: $button-padding-py-lg;
+  BUTTON_PADDING_PX_LG: $button-padding-px-lg;
+  BUTTON_PADDING_PX_SM: $button-padding-px-sm;
+  BUTTON_GAP: $button-gap;
+  FONT_WEIGHT_THIN: $font-weight-thin;
+  FONT_WEIGHT_EXTRA_LIGHT: $font-weight-extra_light;
+  FONT_WEIGHT_LIGHT: $font-weight-light;
+  FONT_WEIGHT_REGULAR: $font-weight-regular;
+  FONT_WEIGHT_MEDIUM: $font-weight-medium;
+  FONT_WEIGHT_SEMI_BOLD: $font-weight-semi_bold;
+  FONT_WEIGHT_BOLD: $font-weight-bold;
+  FONT_WEIGHT_EXTRA_BOLD: $font-weight-extra_bold;
+  FONT_WEIGHT_BLACK: $font-weight-black;
+  TABS_PADDING_PY: $tabs-padding-py;
+  TABS_PADDING_PX: $tabs-padding-px;
+  TABLE_PADDING_PY_MD: $table-padding-py-md;
+  TABLE_PADDING_PX: $table-padding-px;
+  LAYOUT_COLUMN_CONTAINER: $layout-column-container;
+  LAYOUT_PADDING_LG: $layout-padding-lg;
+  LAYOUT_BODY_PADDING_PX: $layout-body-padding-px;
+  DIVIDER_DEFAULT: $divider-default;
+  DIVIDER_DIVIDER: $divider-divider;
+  PAGE_HEADER_BUTTON_PADDING_PY: $page-header-button-padding-py;
+  PAGE_HEADER_BUTTON_PADDING_PX: $page-header-button-padding-px;
+  INPUT_PADDING_PAD_Y_SM: $input-padding-pad-y-sm;
+  PRIMARY_DARK: $primary-dark;
+  PRIMARY_MAIN: $primary-main;
+  COMPONENTS_SWITCH_SLIDE_FILL: $components-switch-slide-fill;
+  COMPONENTS_SWITCH_KNOB_FILL_ENABLED: $components-switch-knob-fill-enable;
+  LIGHT_BLUE_900: $light-blue-900;
+  MENU_BORDER_RADIUS: $menu-border-radius;
+  MENU_PADDING_MENU_PY: $menu-padding-menu-py;
+  MENU_SURFACE: $menu-surface;
+  MENU_ITEM_PADDING_PY: $menu-item-padding-py;
+  MENU_ITEM_PADDING_PX: $menu-item-padding-px;
+  MENU_PADDING_GAP: $menu-padding-gap;
+  COMMON_WHITE: $common_white;
+  BORDER_RADIUS_MD: $border-radius-md;
+  ACTION_ACTIVE: $action-active;
+  ACTION_HOVER: $action-hover;
+  ACTION_FOCUS: $action-focus;
+  ACTION_SELECTED: $action-selected;
+  ICON_ICON_MD: $icon-icon-md;
+  ICON_ICON_SM: $icon-icon-sm;
+  CHECKBOX_ICON_IC_SM: $checkbox-icon-ic-sm;
+  BASE_INFO_MAIN: $base-info-main;
+  BASE_SUCCESS_MAIN: $base-success-main;
+  BASE_WARNING_MAIN: $base-warning-main;
+  BASE_ERROR_MAIN: $base-error-main;
+  BASE_YELLOW_MAIN: $base-yellow-main;
+  BASE_LIME_MAIN: $base-lime-main;
+  BASE_SECONDARY_MAIN: $base-secondary-main;
+  SKELETON_START: $skeleton-start;
+  SKELETON_END: $skeleton-end;
+  LINK_DEFAULT: $link-default;
+  BASE_PRIMARY_CONTRAST: $base-primary-contrast;
+  TEXT_TEXT_WHITE: $text-text-white;
+  BORDER_DEFAULT: $border-default;
+  BASE_PLUS_MAIN: $base-plus-main;
+  BG_BUTTON_WHITE_DEFAULT: $bg-button-white-default;
+  ICON_BUTTON_PADDING_P_MD: $iconButton-padding-p-md;
+  BORDER_HOVER:$border-hover;
+  }

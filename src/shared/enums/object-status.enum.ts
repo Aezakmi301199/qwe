@@ -1,0 +1,9 @@
+export enum CrmStatusObject {
+  ACTIVE = 'ACTIVE',
+  SOLD = 'SOLD',
+  PENDING = 'PENDING',
+  DEPOSIT = 'DEPOSIT',
+  SUSPENDED = 'SUSPENDED',
+  DELETED = 'DELETED',
+  CANCELED = 'CANCELED',
+}

@@ -1,0 +1,15 @@
+export enum NoDataMessage {
+  TITLE_FAVORITE = 'Избранное',
+  TITLE_MY_OBJECT = 'Мои объекты',
+  NO_DATA_LOADED = 'Не удалось загрузить объекты',
+  REFRESH_PAGE = 'Попробуйте перезагрузить страницу',
+  SAVE_OBJECT_RIES = 'Сохраняйте объекты в РИЭС',
+  SAVE_OBJECT_RIES_DESCRIPTION = 'Чтобы быстрее пополнить базу объектов',
+  SAVE_OBJECT_FAVORITES = 'Добавляйте объекты в «Избранное»',
+  SAVE_OBJECT_FAVORITES_DESCRIPTION = 'Не пропустите изменения цены в интересных вам предложениях',
+  NO_DATA_FOUND = 'Ничего не найдено',
+  CHANGE_SEARCH_PARAMS = 'Попробуйте изменить параметры поиска',
+  REAL_ESTATE_NOT_FOUND = 'Объекты не найдены',
+  NO_DATA_CALLS = 'У вас еще нет звонков',
+  NO_DATA_PAYMENTS = 'У вас еще нет активных транзакций',
+}

@@ -1,0 +1,600 @@
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+img {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slick-prev {
+    display: none !important;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.right {
+    right: 0;
+}
+
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 158px;
+}
+
+.truncate-text-card {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 240px;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    border-radius: 8px !important;
+}
+
+.custom-tooltip {
+    font-size: 14px !important;
+    font-family: Roboto, serif !important;
+    font-weight: 400;
+}
+
+.dropMenu {
+    padding: 8px;
+}
+
+.dropMenu:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 45px;
+}
+
+.css-f7pke5-MuiPaper-root-MuiPopover-paper {
+    border-radius: 12px !important;
+}
+
+.filterButton {
+    min-width: 0;
+    border-radius: 8px;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+    font-size: 12px !important;
+}
+
+.css-1rrmr0f-MuiModal-root-MuiDrawer-root {
+    position: inherit !important;
+}
+
+.favoriteCardButton {
+    margin-right: 8px;
+}
+
+.favoriteCardButton:hover {
+    background-color: #fefce7;
+}
+
+.split {
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.align-baseline-cell {
+    align-items: flex-start !important;
+}
+
+.css-1k2a5vo-MuiSlider-root {
+    padding: 0 !important;
+}
+
+.css-14pt78w-MuiSlider-rail {
+    width: 262px !important;
+}
+
+.css-ja5taz-MuiTooltip-tooltip {
+    background-color: rgba(97, 97, 97, 1) !important;
+    border-radius: 8px !important;
+    padding: 4px 8px !important;
+}
+
+.css-174kniu-MuiSlider-root {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.css-h7k4kf-MuiSlider-thumb {
+    display: none !important;
+}
+
+.justify-end-cell {
+    justify-content: flex-end !important;
+}
+
+.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+    background-color: #1a1a1a !important;
+}
+
+.closeButtonMap {
+    background-color: #f1f5f9;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.closeButton {
+    padding: 5px;
+}
+
+.closeButton:hover {
+    background-color: #f1f5f9;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.css-1d1d7ji-MuiFormLabel-root-MuiInputLabel-root {
+    top: -8px !important;
+}
+
+.closeButtonSnack:hover {
+    background-color: #9a9999;
+    border-radius: 45px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.css-10ohwma-MuiPaper-root-MuiDrawer-paper {
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+
+.css-10blsww-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    border-radius: 12px !important;
+}
+
+.closeButtonSettings {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.closeButtonSettings:hover {
+    background-color: rgba(229, 231, 236, 0.54);
+    border-radius: 45px;
+}
+
+tbody {
+    border-top: 1px solid rgba(224, 224, 224);
+}
+
+.css-12xgkt1-MuiInputBase-input-MuiOutlinedInput-input {
+    font-size: 14px !important;
+}
+
+.commentButton:hover {
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 231, 236, 0.54);
+    border-radius: 45px;
+}
+
+.favoriteButton:hover {
+    background-color: #fc6a6a;
+}
+
+.css-129iuvb-MuiButtonBase-root-MuiButton-root:hover {
+    box-shadow: none !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 8px !important;
+}
+
+.left {
+    left: 0;
+    border-right: none !important;
+}
+
+.adaptive-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.onCursorPointer:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1349px) {
+    .statuses {
+        display: none !important;
+    }
+}
+
+/*slider*/
+
+.slide img {
+    text-align: center;
+    border-radius: 8px;
+}
+
+.slider-arrow {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+}
+
+.slider-arrow-left {
+    left: 10px;
+}
+
+.slider-arrow-right {
+    right: 10px;
+}
+
+.hoverable-cell {
+    display: none;
+    opacity: 0;
+}
+
+.hoverable-cell {
+    display: none;
+    opacity: 0;
+}
+
+.circleMapMarker {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    background-color: rgb(52, 121, 232);
+    background-size: contain;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 0px;
+}
+
+.selectedMarker {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    background-color: rgb(255, 67, 67);
+    background-size: contain;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 0px;
+}
+
+.leaflet-popup > .leaflet-popup-content-wrapper {
+    border-radius: 100px;
+    border: 2px solid var(--border-default-inverse, #fff);
+    background: var(--base-primary-main, #3479e8) !important;
+    min-height: fit-content;
+
+    display: flex;
+    padding: 3px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.leaflet-popup-content-wrapper:before {
+    display: none;
+}
+
+.mapRealEstatePopup {
+    display: flex;
+    padding: 3px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    width: max-content;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.024px;
+}
+
+.leaflet-popup-content-wrapper > .leaflet-popup-content {
+    margin: 0px;
+}
+
+.leaflet-popup::after {
+    content: '';
+    position: absolute;
+    height: 10px;
+    left: 50%;
+    top: 100%;
+    bottom: -99%;
+    right: 0;
+    transform: translate(-29%);
+    background-image: url('../shared/assets/icons/angle.svg');
+    background-repeat: no-repeat;
+}
+
+.bannerPlus {
+    background-image: url("../shared/assets/images/rhood-plus.png");
+    display: flex;
+    align-items: center;
+    background-repeat: round;
+    height: 170px;
+    border-radius: 12px;
+    padding: 32px 24px 24px 24px;
+    object-fit: contain;
+}
+
+.featurePlus {
+    background-image: url("../shared/assets/images/rhood-plus.png");
+    display: flex;
+    align-items: center;
+    background-repeat: round;
+    padding: 32px 24px 24px 24px;
+    object-fit: contain;
+    position: relative;
+}
+
+.recognitionStatus {
+    color: rgba(19, 29, 53, 0.54);
+    height: 18px;
+    width: 18px;
+}
+
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.statByWeekChartPlug {
+    background: url("../shared/assets/images/stat-by-week-chart-plug-backgroung.png"), linear-gradient(to right, #7076F5 100%, #6366F2 100%);;
+}
+
+/* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), url('../../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), url('../../fonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), url('../../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), url('../../fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), url('../../fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), url('../../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), url('../../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), url('../../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), url('../../fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Regular'), url('../../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), url('../../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), url('../../fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Roboto Mono */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Bold'), url('../../fonts/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Bold Italic'), url('../../fonts/RobotoMono-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono ExtraLight'), url('../../fonts/RobotoMono-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono ExtraLight Italic'), url('../../fonts/RobotoMono-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Italic'), url('../../fonts/RobotoMono-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Light'), url('../../fonts/RobotoMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Light Italic'), url('../../fonts/RobotoMono-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Medium'), url('../../fonts/RobotoMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Medium Italic'), url('../../fonts/RobotoMono-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Regular'), url('../../fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono SemiBold'), url('../../fonts/RobotoMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono SemiBold Italic'), url('../../fonts/RobotoMono-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Thin'), url('../../fonts/RobotoMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono Thin Italic'), url('../../fonts/RobotoMono-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root{
+    height: 100%;
+}
+
+code, pre {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li::marker {
+    color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,8 @@
+export enum MapRealEstateSettings {
+  DEFAULT_GEO_ZOOM = 12,
+  MAX_GEO_ZOOM = 18,
+  MIN_GEO_ZOOM = 5,
+  MAX_GEO_CLUSTER_ZOOM = 15,
+  MIN_GEO_CLUSTER_ZOOM = 13,
+  MIN_DISTANCE_BEFORE_NEW_PAGE = 150,
+}
